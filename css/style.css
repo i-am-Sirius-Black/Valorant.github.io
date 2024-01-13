@@ -1,10 +1,7 @@
-body{
-  display: flex;
-  background-image: url(/images/ValoOmen.jpg);
-  height: 100vh;
-}
 
-.style-0 {
+.section-1{
+  background-image: url(/images/ValoOmen.webp);
+
   cursor: auto;
   text-shadow: rgba(0, 0, 0, 0.5) 0px 0.8px 1.6px;
   box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 80px 0px inset;
@@ -23,27 +20,11 @@ body{
   box-sizing: border-box;
 }
 
+.section-2{
+  height: 100vh;
 
-.style-10 {
-  box-sizing: border-box;
 }
 
-.style-11 {
-  margin-bottom: 16px;
-  margin-right: 16px;
-  right: 0px;
-  bottom: 0px;
-  position: fixed;
-  box-sizing: border-box;
-  z-index: 1500;
-}
-
-
-
-
-.style-34 {
-  box-sizing: border-box;
-}
 
 .style-35 {
   max-width: 672px;
@@ -258,3 +239,4 @@ body{
   text-decoration: underline solid rgb(255, 255, 255);
   box-sizing: border-box;
 }
+
