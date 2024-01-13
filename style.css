@@ -1,7 +1,9 @@
 
-.section-1{
-  background-image: url(/images/ValoOmen.webp);
-
+.section-1 {
+  background-image: url(ValoOmen.webp);
+  background-size: cover; /* This property makes the background image cover the entire container */
+  background-position: center; /* This property centers the background image */
+  
   cursor: auto;
   text-shadow: rgba(0, 0, 0, 0.5) 0px 0.8px 1.6px;
   box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 80px 0px inset;
@@ -19,7 +21,6 @@
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   box-sizing: border-box;
 }
-
 .section-2{
   height: 100vh;
 
